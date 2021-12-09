@@ -1,5 +1,3 @@
 package example
 
-import cats.data.NonEmptyList
-
-final case class Address(lines: NonEmptyList[String], postCode: String)
+final case class Address(lines: List[String], postCode: String)
